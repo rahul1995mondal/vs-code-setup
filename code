@@ -1,0 +1,159 @@
+vs code extention:
+1.Andromeda 
+2.azure color theme 
+3.bootstrap 4 
+4.cobalt2 
+5.codeSTACKr theme 
+6.javascript 
+7.jquery code snippets 
+8.laravel blade snippets 
+9.Laravel Blade Spacer 
+10.Laravel Extra Intellisense 
+11.laravel goto controller 
+12.laravel goto view 
+13.livewire language support 
+14.php debug 
+15.php intelephanse 
+
+vs json settings:
+
+{
+    "editor.tabSize": 2,
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "expand",
+    "files.autoSave": "afterDelay",
+    "editor.cursorWidth": 3,
+    "editor.cursorSmoothCaretAnimation": true,
+    "json.schemas": [
+    
+
+    
+
+
+    
+
+    ],
+    "workbench.iconTheme": "vscode-icons",
+   
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#262629",
+        "editorGroupHeader.tabsBackground": "#161617",
+        "activityBar.background": "#222223",
+        "sideBar.background": "#1c1a1a",
+        "minimap.background": "#141422",
+        "tab.activeBackground": "#585860",
+        "tab.inactiveBackground": "#150909",
+        "terminal.border": "#89898e",
+        "terminal.background": "#372c3a",
+        "statusBar.background": "#474787",
+        "scrollbarSlider.background": "#474787",
+        "scrollbarSlider.hoverBackground": "#706fd3",
+      },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                 "variable.other.php", 
+                 ],
+                 "settings": {
+                 "foreground": "#f3d799",
+                //  "foreground": "#f52bda",
+                 }
+            },
+            {
+                "scope": [
+                 "string.quoted.double.php", 
+                 ],
+                 "settings": {
+                
+                 "foreground": "#08da82",
+
+                 }
+            },
+            {
+                "scope": [
+                 "string.quoted.single.php", 
+                 ],
+                 "settings": {
+                
+                 "foreground": "#97e1ff",
+                 }
+            },
+            {
+                "scope": [
+                 "variable.other.global.php",
+                 "variable.other.global.safer.php", 
+                 
+                 ],
+                 "settings": {
+                
+                 "foreground": "#0077ff",
+                 }
+            },
+            {
+                "scope": [
+                 "variable.other.object.js",
+                 "variable.other.global.safer.php", 
+                 ],
+                 "settings": {
+                 "foreground": "#f52bda",
+                 }
+            },
+            {
+                "scope": [
+                 "support.class.php",
+                            
+                 ],
+                 "settings": {
+                 "foreground": "#98e898" 
+                 }
+            },
+            {
+                "scope": [
+                    "storage.type.function.php",
+                 ],
+                 "settings": {
+                 "foreground": "#f52bda",
+                 }
+            },
+            {
+                "scope": [
+                    "keyword.control.return.php",
+                 ],
+                 "settings": {
+                 "foreground": "#ffa600",
+                 }
+            },
+            {
+                "scope": [
+                    "entity.name.type.class.php",
+                    "entity.name.type.namespace.php",
+                 ],
+                 "settings": {
+                 "foreground": "#00ff15",
+                 }
+            },     
+        ]
+    },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Andromeda Colorizer",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "bracket-pair-colorizer-2.colors": [
+        
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "[blade]": {
+        "editor.defaultFormatter": "onecentlin.laravel-blade"
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontSize": 15,
+    
+    
+}
